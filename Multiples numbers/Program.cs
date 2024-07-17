@@ -11,7 +11,9 @@ namespace Multiples_numbers
             int minMultiple = 50;
             int maxMultiple = 150;
             int numberOfMultiples = 0;
-            int randomValue = random.Next(10, 26);
+            int minRandomValue = 10;
+            int maxRandomValue = 26;
+            int randomValue = random.Next(minRandomValue, maxRandomValue);
 
             Console.WriteLine("Дано случайное число: " + randomValue);
 
