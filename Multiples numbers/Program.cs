@@ -17,10 +17,8 @@ namespace Multiples_numbers
 
             Console.WriteLine("Дано случайное число: " + randomValue);
 
-            for (int i = 0; i <= maxMultiple; i++)
+            for (int i = 0; i <= maxMultiple; i+= randomValue)
             {
-                i += randomValue;
-
                 if (i >= minMultiple)
                 {
                     numberOfMultiples++;
